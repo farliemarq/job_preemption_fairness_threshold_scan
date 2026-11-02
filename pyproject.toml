@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "farliemarq-agentapp_jd266"
+name = "farliemarq-job_preemption_fairness_threshold_scan"
 version = "0.1.0"
 description = "为每一项打分并与阈值比较，明确标出通过、边界与不通过三档"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://farliemarq.github.io"
-Repository = "https://github.com/farliemarq/agentapp_jd266"
-Issues = "https://github.com/farliemarq/agentapp_jd266/issues"
+Repository = "https://github.com/farliemarq/job_preemption_fairness_threshold_scan"
+Issues = "https://github.com/farliemarq/job_preemption_fairness_threshold_scan/issues"
 
 [project.scripts]
-agentapp_jd266 = "agentapp_jd266:main"
+job_preemption_fairness_threshold_scan = "job_preemption_fairness_threshold_scan:main"
 
 [tool.setuptools]
-py-modules = ["agentapp_jd266"]
+py-modules = ["job_preemption_fairness_threshold_scan"]
